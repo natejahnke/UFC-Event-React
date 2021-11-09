@@ -1,3 +1,5 @@
+import React from "react";
+
 const Fight = (props) => 
         <div className="fight-container">
         <div className="content">
