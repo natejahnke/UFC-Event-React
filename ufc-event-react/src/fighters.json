@@ -1,0 +1,394 @@
+{
+    "1": {
+        "id": "1",
+        "fname": "Kamaru",
+        "lname": "Usman",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "2": {
+        "id": "2",
+        "fname": "Colby",
+        "lname": "Covington",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/image/ufc-fighter-container/67658/profile-galery/profile-picture/COVINGTON_COLBY_08-03.png?VersionId=null&h=a30e7339&itok=Y_dsHvyE",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "3": {
+        "id": "3",
+        "fname": "Rose",
+        "lname": "Namajunas",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "4": {
+        "id": "4",
+        "fname": "Weili",
+        "lname": "Zhang",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "5": {
+        "id": "5",
+        "fname": "Frankie",
+        "lname": "Edgar",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "6": {
+        "id": "6",
+        "fname": "Marlon",
+        "lname": "Vera",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "7": {
+        "id": "7",
+        "fname": "Shane",
+        "lname": "Burgos",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "8": {
+        "id": "8",
+        "fname": "Billy",
+        "lname": "Quarantillo",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "9": {
+        "id": "9",
+        "fname": "Justin",
+        "lname": "Gaethje",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "10": {
+        "id": "10",
+        "fname": "Michael",
+        "lname": "Chandler",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "11": {
+        "id": "11",
+        "fname": "Alex",
+        "lname": "Pereira",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "12": {
+        "id": "12",
+        "fname": "Andreas",
+        "lname": "Michailidis",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "13": {
+        "id": "13",
+        "fname": "Al",
+        "lname": "Iaquinta",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "14": {
+        "id": "14",
+        "fname": "Bobby",
+        "lname": "Green",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "15": {
+        "id": "15",
+        "fname": "Phillip",
+        "lname": "Hawes",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "16": {
+        "id": "16",
+        "fname": "Chris",
+        "lname": "Curtis",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "17": {
+        "id": "17",
+        "fname": "Edmen",
+        "lname": "Shahbazyan",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "18": {
+        "id": "18",
+        "fname": "Nassourdine",
+        "lname": "Imavov",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "19": {
+        "id": "19",
+        "fname": "Ian",
+        "lname": "Garry",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "20": {
+        "id": "20",
+        "fname": "Jordan",
+        "lname": "Williams",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "21": {
+        "id": "21",
+        "fname": "Gian",
+        "lname": "Villante",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "22": {
+        "id": "22",
+        "fname": "Chris",
+        "lname": "Barnett",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "23": {
+        "id": "23",
+        "fname": "Dustin",
+        "lname": "Jacoby",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "24": {
+        "id": "24",
+        "fname": "John",
+        "lname": "Allan",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "25": {
+        "id": "25",
+        "fname": "Melsik",
+        "lname": "Baghdasaryan",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "26": {
+        "id": "26",
+        "fname": "Bruno",
+        "lname": "Souza",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "27": {
+        "id": "27",
+        "fname": "Cj",
+        "lname": "Vergara",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    },
+    "28": {
+        "id": "28",
+        "fname": "Ode'",
+        "lname": "Osbourne",
+        "image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+        "stats": {
+            "record": "19-1-0",
+            "weightclass": "Welterweight",
+            "weight": "170",
+            "height": "6'0",
+            "reach": "76",
+            "country": "Nigeria"
+        }
+    }
+}
