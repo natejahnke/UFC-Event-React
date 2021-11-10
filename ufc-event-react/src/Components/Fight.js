@@ -1,6 +1,7 @@
 import React from "react";
 
-const Fight = (props) =>
+const Fight = props => {
+    return (
   <div className="fight-container">
     <div className="content">
       <div className="parent">
@@ -18,6 +19,8 @@ const Fight = (props) =>
         </div>
       </div>
     </div>
-  </div>;
+  </div>
+    );
+};
 
 export default Fight;

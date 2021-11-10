@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';import logo from './logo.svg';
 import './App.css';
 import Fight from "./Components/Fight";
-import fighters from "../src/fighters.json";
+// import fighters from "../src/fighters.json";
+import fighters from "./fighters";
+// import MainCard from "./Components/MainCard";
 
 class App extends Component {
   state = {
@@ -10,16 +11,21 @@ class App extends Component {
   }
 
   render() {
-    console.log(fighters.[5].fname);
+    // const badDude = fighters.fighters.find(fighter => fighter.id === 4);
+    // console.log(badDude);
+    // const fighterlist = JSON.stringify(fighters)
+    console.log(fighters[0].fname)
+    // const f = fighters.fighters;
 
     return (
+      // <MainCard />
       <Fight
-        fighter1_fname={fighters[1].fname}
-        fighter1_lname={fighters[1].lname}
-        fighter2_fname={fighters[2].fname}
-        fighter2_lname={fighters[2].lname}
-        fighter1_image={fighters[1].image}
-        fighter2_image={fighters[2].image}
+        // fighter1_fname={f[0].fname}
+        // fighter1_lname={f[0].lname}
+        // fighter2_fname={f[1].fname}
+        // fighter2_lname={f[1].lname}
+        // fighter1_image={f[0].image}
+        // fighter2_image={f[1].image}
       />
       // <div classNameName="App">
       //   <div className="container">
@@ -338,8 +344,8 @@ class App extends Component {
       //     </div>
       //   </div>
       // </div>
-    );
-  }
+    )
+  };
 }
 
 export default App;
