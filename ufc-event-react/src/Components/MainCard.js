@@ -1,15 +1,16 @@
-import React from "react";
-import fighters from "../src/fighters.json";
-import Fight from "./Components/Fight";
+// import React from "react";
+// import fighters from "../fighters";
+// import Fight from "./FightButton";
 
-const fighterlist = fighters.fighters;
+// const MainCard = () => {
+//     console.log(fighters[0].id)
+//     return (
+//         <div className="maincard fight-grid">
+//             {fighters.slice([0], [5]).map(fighter => {
+//                 return <Fight fighter={fighter} key={fighter.id} />;
+//             })}
+//         </div>
+//         );
+//     };
 
-const MainCard = () => {
-    return (
-        <div className="maincard fight-grid">
-            
-        </div>
-        );
-    };
-
-export default MainCard;
+// export default MainCard;

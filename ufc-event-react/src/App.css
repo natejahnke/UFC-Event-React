@@ -520,3 +520,13 @@ p {
       rgba(64, 61, 61, 1) 10%,
       rgba(239, 52, 50, 1) 100%);
 }
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
