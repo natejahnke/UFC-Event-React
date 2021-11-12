@@ -226,7 +226,7 @@ h2 {
 .profile-image {
   display: grid;
   max-width: 284px;
-  gap: 5px;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
 
 .profile-image-left {
@@ -487,6 +487,7 @@ p {
 /* Small fighter image style */
 .small-img {
   width: 180px;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
 
 /* Overlap small image positioning */
