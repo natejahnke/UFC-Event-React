@@ -4,7 +4,6 @@ import FightButton from "./Components/FightButton";
 import CurrentFight from './Components/CurrentFight';
 import FightBanner from "./Components/FightBanner";
 // import fighters from "../src/fighters.json";
-import fighters from "./fighters";
 
 const fightData = {
   mainCard: [
@@ -162,7 +161,7 @@ const fightData = {
           id: 1,
           f_name: "Alex",
           l_name: "Pereira",
-          img: "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/68441%252Fprofile-galery%252Fprofile-picture%252FUSMAN_KAMARU_BELT_04-24.png?VersionId=null&h=a30e7339&itok=Nbspzpxy",
+          img: "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-11/69696%252Fprofile-galery%252Fprofile-picture%252FPEREIRA_ALEX_11-06.png?h=a30e7339&itok=9vpchEAh",
           height: 6,
           weight: 170,
           reach: 76,
@@ -232,7 +231,7 @@ const fightData = {
           id: 4,
           f_name: "Chris",
           l_name: "Curtis",
-          img: "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/image/fighter_images/Chris_Curtis/CURTIS_CHRIS.png?VersionId=HU6VjRF9wFQT9zEYhOZS70FGIx5kMMvS&itok=dvOJcUwn",
+          img: "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-11/67628%252Fprofile-galery%252Fprofile-picture%252FCURTIS_CHRIS_11-06.png?h=a30e7339&itok=oYK5WlB0",
           height: 68,
           weight: 135,
           reach: 70.5,
@@ -271,6 +270,9 @@ const fightData = {
         }
       }
     },
+
+  ],
+  earlyPrelim: [
     {
       fightID: 10,
       fighters: {
@@ -278,7 +280,7 @@ const fightData = {
           id: 1,
           f_name: "Ian",
           l_name: "Garry",
-          img: "https://www.ufc.com/themes/custom/ufc/assets/img/no-profile-image.png",
+          img: "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-11/71830%252Fprofile-galery%252Fprofile-picture%252FGARRY_IAN_11-06.png?h=a30e7339&itok=qBt4Caff",
           height: 6,
           weight: 170,
           reach: 76,
@@ -299,9 +301,124 @@ const fightData = {
           country: "Nigeria"
         }
       }
+    },
+    {
+      fightID: 11,
+      fighters: {
+        fighter1info: {
+          id: 1,
+          f_name: "Gian",
+          l_name: "Villante",
+          img: "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-11/68015%252Fprofile-galery%252Fprofile-picture%252FVILLANTE_GIAN_11-06.png?h=a30e7339&itok=_rCe5tBZ",
+          height: 65,
+          weight: 115,
+          reach: 65,
+          age: 29,
+          record: 11 - 4 - 0,
+          country: "USA"
+        },
+        fighter2info: {
+          id: 1,
+          f_name: "Chris",
+          l_name: "Barnett",
+          img: "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-05/71791%252Fprofile-galery%252Fprofile-picture%252FBARNETT_CHRIS_05-22.png?VersionId=null&h=a30e7339&itok=H8FOlJXZ",
+          height: 64,
+          weight: 115,
+          reach: 63,
+          age: 32,
+          record: 21 - 2 - 0,
+          country: "China"
+        }
+      }
+    },
+    {
+      fightID: 12,
+      fighters: {
+        fighter1info: {
+          id: 1,
+          f_name: "Dustin",
+          l_name: "Jacoby",
+          img: "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-04/67864%252Fprofile-galery%252Fprofile-picture%252FJACOBY_DUSTIN_05-01.png?VersionId=null&h=a30e7339&itok=snthYb0N",
+          height: 6,
+          weight: 135,
+          reach: 76,
+          age: 32,
+          record: 23 - 9 - 1,
+          country: "USA"
+        },
+        fighter2info: {
+          id: 4,
+          f_name: "John",
+          l_name: "Allan",
+          img: "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-11/69719%252Fprofile-galery%252Fprofile-picture%252FALLAN_JOHN_11-06.png?h=a30e7339&itok=9Nl39RKL",
+          height: 68,
+          weight: 135,
+          reach: 70.5,
+          age: 28,
+          record: 17 - 7 - 1,
+          country: "Ecuador"
+        }
+      }
+    },
+    {
+      fightID: 13,
+      fighters: {
+        fighter1info: {
+          id: 1,
+          f_name: "Melsik",
+          l_name: "Baghdasaryan",
+          img: "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-08/BAGHDASARYAN_MELSIK_07-31.png?h=a30e7339&itok=pkUK9d-O",
+          height: 6,
+          weight: 170,
+          reach: 76,
+          age: 32,
+          record: 19 - 1 - 0,
+          country: "Nigeria"
+        },
+        fighter2info: {
+          id: 1,
+          f_name: "Bruno",
+          l_name: "Souza",
+          img: "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-11/85272%252Fprofile-galery%252Fprofile-picture%252FSOUZA_BRUNO_11-06.png?h=a30e7339&itok=KkcqEP2W",
+          height: 6,
+          weight: 170,
+          reach: 76,
+          age: 32,
+          record: 19 - 1 - 0,
+          country: "Nigeria"
+        }
+      }
+    },
+    {
+      fightID: 14,
+      fighters: {
+        fighter1info: {
+          id: 1,
+          f_name: "CJ",
+          l_name: "Vergara",
+          img: "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-11/71758%252Fprofile-galery%252Fprofile-picture%252FVERGARA_CJ_11-06.png?h=a30e7339&itok=vS3z7rOJ",
+          height: 6,
+          weight: 170,
+          reach: 76,
+          age: 32,
+          record: 19 - 1 - 0,
+          country: "Nigeria"
+        },
+        fighter2info: {
+          id: 1,
+          f_name: "Ode'",
+          l_name: "Osbourne",
+          img: "https://dmxg5wxfqgb4u.cloudfront.net/styles/teaser/s3/2021-08/71517%252Fprofile-galery%252Fprofile-picture%252FOSBOURNE_ODE_08-07.png?h=a30e7339&itok=r6XnUD1P",
+          height: 6,
+          weight: 170,
+          reach: 76,
+          age: 32,
+          record: 19 - 1 - 0,
+          country: "Nigeria"
+        }
+      }
     }
-  ],
-  earlyPrelim: []
+  ]
 };
 
 const App = () => {
@@ -325,19 +442,13 @@ const App = () => {
           fightID={fightID}
           fightersObj={fighters}
           setCurrentFightID={setCurrentFightID}
-          setCurrentFightTime={eventSection}
         />
       );
     });
 
   const renderCurrentFight = () => {
-
-    const { fightID } = fightData;
-
-
     return (
       <CurrentFight
-
         currentFightID={currentFightID}
         fightersObj={fightData}
       />
@@ -346,21 +457,32 @@ const App = () => {
 
 
   return (
-    <>
+
+    <div class="container">
       {renderCurrentFight()}
-      <FightBanner fightTime={"Main Card - 9:00PM CST on PPV"} />
+      <FightBanner
+        fightTime={"Main Card - 9:00PM CST on PPV"}
+        timeCard={"maincard"}
+      />
       <div className="maincard fight-grid">
         {renderMainCardFights(mainCard)}
       </div>
-      <FightBanner fightTime={"Prelims - 7:00PM CST on ESPN+"} />
+      <FightBanner
+        fightTime={"Prelims - 7:00PM CST on ESPN+"}
+        timeCard={"prelims"}
+      />
       <div className="prelims fight-grid">
         {renderMainCardFights(prelim)}
       </div>
-      <FightBanner fightTime={"Early Prelims - 5:00PM CST on UFC Fight Pass"} />
+      <FightBanner
+        fightTime={"Early Prelims - 5:00PM CST on UFC Fight Pass"}
+        timeCard={"earlyprelims"}
+      />
       <div className="earlyprelims fight-grid">
         {renderMainCardFights(earlyPrelim)}
       </div>
-    </>
+    </div>
+
   );
 };
 

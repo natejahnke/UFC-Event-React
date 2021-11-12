@@ -1,25 +1,18 @@
 import React from "react";
 
 const CurrentFight = (props) => {
-  const { fightersObj, currentFightID, eventSection } = props;
-  // console.log(currentFightID);
-  // console.log(fightersObj.mainCard);
+  const { fightersObj, currentFightID } = props;
+
+  // Define mainCard, prelim and earlyPrelim by fightID range.
   let idMatch;
   if (currentFightID <= 5) {
     idMatch = fightersObj.mainCard.find(fighter => fighter.fightID === currentFightID);
-  } else if (currentFightID > 5 && currentFightID <= 10) {
+  } else if (currentFightID > 5 && currentFightID <= 9) {
     idMatch = fightersObj.prelim.find(fighter => fighter.fightID === currentFightID);
-  } else if (currentFightID > 10) {
+  } else if (currentFightID > 9) {
     idMatch = fightersObj.earlyPrelim.find(fighter => fighter.fightID === currentFightID);
   };
-  // console.log(currentFightID);
-  // console.log(fightersObj.hasOwnProperty(1));
-  // console.log(fightersObj);
-  // const fighterEntry = fightersObj[eventSection];
-  // console.log(fighterEntry);
-  // const idMatch = fightersObj.mainCard.find(fighter => fighter.fightID === currentFightID);
-  console.log(idMatch);
-  // console.log(Object.values(idMatch));
+  console.log(fightersObj.mainCard[0].fighters.fighter1info.l_name)
   return (
 
     <div className="event-header">
@@ -30,9 +23,9 @@ const CurrentFight = (props) => {
         <div className="event-number">UFC 268</div>
 
         <div className="event-names-column">
-          <div className="event-fighter-name1">{idMatch.fighters.fighter1info.l_name}</div>
+          <div className="event-fighter-name1">{fightersObj.mainCard[0].fighters.fighter1info.l_name}</div>
           <div className="versus">vs</div>
-          <div className="event-fighter-name2">{idMatch.fighters.fighter2info.l_name}</div>
+          <div className="event-fighter-name2">{fightersObj.mainCard[0].fighters.fighter2info.l_name}</div>
         </div>
         <div className="event-details">Sat, Nov 6 / 9:00 PM CDT<span className="event-location">Madison
           Square
@@ -71,10 +64,6 @@ const CurrentFight = (props) => {
         src={idMatch.fighters.fighter2info.img}
         alt="" /></div>
     </div>
-
-    // <div className="current-fight-block">
-    //   <h1>{`Fight ${currentFightID}`}</h1>
-    // </div>
   );
 };
 

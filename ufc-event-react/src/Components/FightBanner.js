@@ -1,10 +1,10 @@
 import React from "react";
 
 const FightBanner = (props) => {
-    const { fightTime } = props;
+    const { fightTime, timeCard } = props;
 
     return (
-        <div className="maincard-banner fight-time-banner">
+        <div className={`${timeCard}-banner fight-time-banner`}>
             <p>{fightTime}</p>
         </div>
     );
