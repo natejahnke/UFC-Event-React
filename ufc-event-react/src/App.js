@@ -325,6 +325,7 @@ const App = () => {
           fightID={fightID}
           fightersObj={fighters}
           setCurrentFightID={setCurrentFightID}
+          setCurrentFightTime={eventSection}
         />
       );
     });
@@ -336,7 +337,7 @@ const App = () => {
 
     return (
       <CurrentFight
-        fightID={fightID}
+
         currentFightID={currentFightID}
         fightersObj={fightData}
       />
@@ -347,7 +348,6 @@ const App = () => {
   return (
     <>
       {renderCurrentFight()}
-      {/* <CurrentFight currentFightID={currentFightID} /> */}
       <FightBanner fightTime={"Main Card - 9:00PM CST on PPV"} />
       <div className="maincard fight-grid">
         {renderMainCardFights(mainCard)}
