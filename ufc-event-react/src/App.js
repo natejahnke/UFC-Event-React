@@ -425,12 +425,17 @@ const App = () => {
 
   const [currentFightID, setCurrentFightID] = useState(1);
 
+  const { mainCard, prelim, earlyPrelim } = fightData;
+  const fightsArray = [...mainCard, ...prelim, ...earlyPrelim];
+
+  console.log(fightsArray);
+
   useEffect(() => {
     console.log("currentFightID: " + currentFightID);
 
   }, [currentFightID]);
 
-  const { mainCard, prelim, earlyPrelim } = fightData;
+  // const { mainCard, prelim, earlyPrelim } = fightData;
   console.log(fightData)
 
   const renderMainCardFights = (eventSection) =>
@@ -450,7 +455,8 @@ const App = () => {
     return (
       <CurrentFight
         currentFightID={currentFightID}
-        fightersObj={fightData}
+        // fightData={fightData}
+        fightsArray={fightsArray}
       />
     )
   };
