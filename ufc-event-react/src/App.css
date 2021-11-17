@@ -50,10 +50,11 @@ h2 {
   margin: auto;
   max-width: 1441px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 213px 38px 112px 38px 110px 38px 110px;
+  grid-template-rows: 110px 213px 38px 110px 38px 110px 38px 110px;
   gap: 5px 0px;
   grid-auto-flow: row;
   grid-template-areas:
+    "fight-title fight-title fight-title fight-title fight-title"
     "event-header event-header event-header event-header event-header"
     "maincard-banner maincard-banner maincard-banner maincard-banner maincard-banner"
     "maincard maincard maincard maincard maincard"
@@ -82,6 +83,41 @@ h2 {
     /* "event-number event-names-column event-details" */
     "fighter-name-left profile-stats fighter-name-right";
   grid-area: event-info;
+}
+
+.fight-title {
+  display: flex;
+  width: 100%;
+  background: linear-gradient(0deg,
+      rgba(64, 61, 61, 1) 10%,
+      rgba(239, 52, 50, 1) 100%);
+}
+
+.fight-title-number {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 46px;
+  font-weight: bolder;
+}
+
+.fight-title-names {
+  display: flex;
+  flex-direction: column;
+  line-height: 0;
+  display: block;
+}
+
+.fight-title-name1 {
+  margin-top: 20px;
+}
+
+.fight-title-name2 {
+  margin-bottom: 10px;
+}
+
+.fight-title {
+  grid-area: fight-title;
 }
 
 .event-number {
@@ -323,9 +359,15 @@ p {
 }
 
 /* Fighter Stats for selected fighters */
+
+.country-text {
+  word-wrap: normal;
+  overflow-wrap: normal;
+}
+
 .profile-stats {
   /* background-color: #403d3d; */
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
   display: flex;
   justify-content: center;
@@ -351,6 +393,7 @@ p {
   color: hsl(0, 0%, 70%);
   padding-top: 10px;
 }
+
 
 .stats-labels {
   display: flex;

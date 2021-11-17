@@ -3,6 +3,7 @@ import './App.css';
 import FightButton from "./Components/FightButton";
 import CurrentFight from './Components/CurrentFight';
 import FightBanner from "./Components/FightBanner";
+import FightTitle from './Components/FightTitle';
 // import fighters from "../src/fighters.json";
 
 const fightData = {
@@ -455,7 +456,6 @@ const App = () => {
     return (
       <CurrentFight
         currentFightID={currentFightID}
-        // fightData={fightData}
         fightsArray={fightsArray}
       />
     )
@@ -465,6 +465,7 @@ const App = () => {
   return (
 
     <div class="container">
+      <FightTitle />
       {renderCurrentFight()}
       <FightBanner
         fightTime={"Main Card - 9:00PM CST on PPV"}

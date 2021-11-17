@@ -37,7 +37,7 @@ const CurrentFight = (props) => {
             <div>{fightObj.fighters.fighter1info.weight} LB</div>
             <div>{fightObj.fighters.fighter1info.height}</div>
             <div>{fightObj.fighters.fighter1info.reach} in</div>
-            <div>{fightObj.fighters.fighter1info.country}</div>
+            <div className="country-text">{fightObj.fighters.fighter1info.country}</div>
           </div>
           <div className="stats-labels">
             <div>Record</div>
@@ -53,7 +53,7 @@ const CurrentFight = (props) => {
             <div>{fightObj.fighters.fighter2info.weight} LB</div>
             <div>{fightObj.fighters.fighter2info.height}</div>
             <div>{fightObj.fighters.fighter2info.reach} in</div>
-            <div>{fightObj.fighters.fighter2info.country}</div>
+            <div className="country-text">{fightObj.fighters.fighter2info.country}</div>
           </div>
         </div>
         <div className="fighter-name-right-box">
