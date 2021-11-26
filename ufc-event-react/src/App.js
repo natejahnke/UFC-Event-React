@@ -4,7 +4,6 @@ import FightButton from "./Components/FightButton";
 import CurrentFight from './Components/CurrentFight';
 import FightBanner from "./Components/FightBanner";
 import FightTitle from './Components/FightTitle';
-// import fighters from "../src/fighters.json";
 
 const fightData = {
   mainCard: [
@@ -436,7 +435,6 @@ const App = () => {
 
   }, [currentFightID]);
 
-  // const { mainCard, prelim, earlyPrelim } = fightData;
   console.log(fightData)
 
   const renderMainCardFights = (eventSection) =>

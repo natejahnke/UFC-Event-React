@@ -2,8 +2,6 @@ import React from "react";
 
 const FightTitle = (props) => {
 
-
-
 return (
     <div className="fight-title">
         <h1 className="fight-title-number">UFC 268</h1>
