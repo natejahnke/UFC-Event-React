@@ -5,6 +5,8 @@ const CurrentFight = (props) => {
 
   const fightObj = fightsArray.find(fight => fight.fightID === currentFightID);
   console.log(fightObj);
+  console.log("MEMO");
+
 
   return (
 

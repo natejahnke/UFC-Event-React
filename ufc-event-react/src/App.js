@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import './App.css';
 import FightButton from "./Components/FightButton";
 import CurrentFight from './Components/CurrentFight';
@@ -426,7 +426,8 @@ const App = () => {
   const [currentFightID, setCurrentFightID] = useState(1);
 
   const { mainCard, prelim, earlyPrelim } = fightData;
-  const fightsArray = [...mainCard, ...prelim, ...earlyPrelim];
+  // const fightsArray = [...mainCard, ...prelim, ...earlyPrelim];
+  const fightsArray = useMemo(() => [...mainCard, ...prelim, ...earlyPrelim], [mainCard, prelim, earlyPrelim]);
 
   console.log(fightsArray);
 
