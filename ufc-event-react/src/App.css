@@ -9,7 +9,8 @@ html {
 }
 
 body {
-  font-family: "Roboto Slab", serif;
+  /* font-family: "Roboto Slab", serif; */
+  font-family: 'Brawler', serif;
   font-size: 1.6rem;
   text-align: center;
   color: white;
@@ -33,10 +34,6 @@ h2 {
   align-items: center;
   font-size: 1em;
   font-weight: bolder;
-}
-
-.event-header {
-  width: 1441px;
 }
 
 .event-name {
@@ -86,7 +83,9 @@ h2 {
 
 .fight-title {
   display: flex;
-  width: 100%;
+  align-self: center;
+  /* gap: 5px 5px; */
+  /* width: 100%; */
   background: linear-gradient(0deg,
       rgba(64, 61, 61, 1) 10%,
       rgba(239, 52, 50, 1) 100%);
@@ -96,8 +95,16 @@ h2 {
   display: flex;
   justify-content: center;
   align-self: center;
-  font-size: 46px;
+  font-size: 3.8em;
   font-weight: bolder;
+  margin-left: 40px;
+}
+
+.fight-title-versus {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 1em;
 }
 
 .fight-title-names {
@@ -105,14 +112,19 @@ h2 {
   flex-direction: column;
   line-height: 0;
   display: block;
+  font-size: 1.2em;
+  margin-left: 20px;
+
 }
 
 .fight-title-name1 {
-  margin-top: 20px;
+  bottom: -20px;
+  position: relative;
 }
 
 .fight-title-name2 {
-  margin-bottom: 10px;
+  bottom: 16px; 
+  position: relative;
 }
 
 .fight-title {
