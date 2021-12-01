@@ -104,6 +104,14 @@ h2 {
   /* margin-right: 40px; */
 }
 
+.fight-title-details-venue {
+  filter: brightness(80%);
+}
+
+.fight-title-details-location {
+  filter: brightness(80%);
+}
+
 .fight-title-number {
   display: flex;
   justify-content: center;
