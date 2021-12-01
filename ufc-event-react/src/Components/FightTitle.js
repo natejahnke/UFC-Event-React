@@ -10,6 +10,11 @@ const FightTitle = (props) => {
                 <p className="fight-title-versus">vs</p>
                 <p className="fight-title-name2">COVINGTON</p>
             </div>
+            <div className="fight-title-details">
+                <div>Sat, Nov 6 / 9:00 PM CDT</div>
+                <div>Madison Square Garden</div>
+                <div>New York, United States</div>
+            </div>
         </div>
     );
 };

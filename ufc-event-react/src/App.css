@@ -83,12 +83,25 @@ h2 {
 
 .fight-title {
   display: flex;
-  align-self: center;
+  flex-direction: row;
+  justify-content: space-around;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+    0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+  /* display: grid; */
+  /* align-self: center; */
   /* gap: 5px 5px; */
   /* width: 100%; */
   background: linear-gradient(0deg,
       rgba(64, 61, 61, 1) 10%,
       rgba(239, 52, 50, 1) 100%);
+}
+
+.fight-title-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin-right: 40px; */
 }
 
 .fight-title-number {
@@ -97,7 +110,7 @@ h2 {
   align-self: center;
   font-size: 3.8em;
   font-weight: bolder;
-  margin-left: 40px;
+  /* margin-left: 40px; */
 }
 
 .fight-title-versus {
@@ -109,21 +122,21 @@ h2 {
 
 .fight-title-names {
   display: flex;
+  align-self: center;
   flex-direction: column;
   line-height: 0;
   display: block;
   font-size: 1.2em;
-  margin-left: 20px;
-
+  /* margin-left: 20px; */
 }
 
 .fight-title-name1 {
-  bottom: -20px;
+  bottom: -18px;
   position: relative;
 }
 
 .fight-title-name2 {
-  bottom: 16px; 
+  bottom: 14px;
   position: relative;
 }
 
