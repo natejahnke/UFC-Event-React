@@ -20,15 +20,13 @@ const FightButton = (props) => {
               alt="" className="over-img-right small-img" />
             <div className="content-details fadeIn-bottom">
               <h3 className="content-title">
-                {fightersObj.fighter1info.f_name}{" "}
-                {fightersObj.fighter1info.l_name}
+                {`${fightersObj.fighter1info.f_name} ${fightersObj.fighter1info.l_name}`}
               </h3>
               <div className="enhanced-hr">
                 <span>VS</span>
               </div>
               <h3 className="content-title">
-                {fightersObj.fighter2info.f_name}{" "}
-                {fightersObj.fighter2info.l_name}
+                {`${fightersObj.fighter2info.f_name} ${fightersObj.fighter2info.l_name}`}
               </h3>
             </div>
           </div>
